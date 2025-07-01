@@ -1,0 +1,29 @@
+{
+  "name": "securellm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakshBardoliwala/SecureLLM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DakshBardoliwala/SecureLLM/issues"
+  },
+  "homepage": "https://github.com/DakshBardoliwala/SecureLLM#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.8",
+    "jest": "^30.0.3",
+    "ts-jest": "^29.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
