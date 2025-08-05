@@ -1,5 +1,11 @@
 import { DetectionResult, Detector } from "./Detector";
 
+export type EvaluationResult = {
+    blocked: boolean;
+    totalScore: number;
+    details: DetectionResult[];
+}
+
 export class Scorer {
     detectors: Detector[] = [];
     threshold: number = 50;
@@ -9,7 +15,7 @@ export class Scorer {
         this.threshold = threshold;
     }
 
-    evaluate(prompt: string) {
+    evaluate(prompt: string): EvaluationResult {
         let totalScore: number = 0;
         let details: DetectionResult[] = [];
         
