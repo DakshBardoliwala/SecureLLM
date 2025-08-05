@@ -1,20 +1,22 @@
 {
   "name": "securellm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "A middleware framework for detecting and mitigating LLM prompt injection attacks.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "test": "jest",
-    "example": "ts-node --project tsconfig.json"
+    "example": "ts-node --project tsconfig.json",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DakshBardoliwala/SecureLLM.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["llm", "security", "prompt injection", "ai", "middleware", "typescript"],
+  "author": "Daksh Bardoliwala",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DakshBardoliwala/SecureLLM/issues"
   },

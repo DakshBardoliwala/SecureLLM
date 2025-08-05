@@ -1,0 +1,8 @@
+src/
+tests/
+examples/
+*.ts
+tsconfig*.json
+README_drafts/
+CURSOR.md
+jest.config.js
