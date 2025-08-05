@@ -138,3 +138,6 @@ CURSOR.md
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+.DS_Store

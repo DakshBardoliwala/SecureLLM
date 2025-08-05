@@ -6,3 +6,4 @@ tsconfig*.json
 README_drafts/
 CURSOR.md
 jest.config.js
+.DS_Store
